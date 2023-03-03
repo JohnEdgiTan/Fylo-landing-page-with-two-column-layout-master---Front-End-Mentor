@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+.wrapper {
+    width: 100%;
+    min-width: 18.75em;
+    padding: 1.7em;
+}
+
+.header {
+    display: Flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6em;
+    margin-bottom: 6em;
+}
+
+.header .imagebox {
+    width: 85px;
+    height: 25px;
+}
+
+.header .imagebox img {
+    width: 100%;
+    height: 100%;
+}
+
+.allyourfiles img {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    color: black;
+}
+
+.header ul li {
+    margin-left: 2em;
+}
+
+.firstillustration {
+    width: 100%;
+    margin-bottom: 1.8em;
+}
+
+.allyourfiles h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.allyourfiles p {
+    font-size: 0.71em;
+    text-align: center;
+    margin-bottom: 2.3em;
+}
+
+.emailandbutton input {
+    width: 100%;
+    height: 2.1em;
+    margin-bottom: 0.9em;
+    border-radius: 0.3em;
+    border-style: none;
+    padding: 1.2em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 21px -8px rgb(230, 230, 230);
+}
+
+.emailandbutton .getstarted {
+    background-color: #2f65f9;
+    color: white;
+    padding: 0.8em;
+    font-size: 0.8em;
+    border-radius: 0.3em;
+    margin-bottom: 5em;
+    box-shadow: 0px 0px 21px -8px rgb(230, 230, 230);
+}
+
+.emailandbutton .getstarted:hover {
+    background-color: #6B9bff;
+    cursor: pointer;
+}
+
+ ::placeholder {
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    padding: 1.2em;
+}
+
+.wrapper2 img {
+    width: 100%;
+    margin-bottom: -0.5em;
+}
+
+.boxer2 {
+    background-color: hsl(240, 75%, 98%);
+}
+
+.secondillustration {
+    width: 100%;
+}
+
+.boxer2 .secondsection {
+    background-color: #F9F8Fe;
+    padding: 1.7em;
+}
+
+.secondsection img {
+    padding: 1.2em;
+}
+
+.stayproductive h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 4em;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.stayproductive p {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.stayproductive .firstp {
+    margin-bottom: 1em;
+}
+
+.stayproductive .secondp {
+    margin-bottom: 3em;
+}
+
+.seehow {
+    width: 6.65em;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.seehowcontainer {
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.seehowcontainer a {
+    text-decoration: none;
+    text-align: center;
+    color: hsl(170, 45%, 43%);
+    margin-bottom: 0.3em;
+    align-items: center;
+}
+
+.seehowcontainer svg {
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.flyohasimproved {
+    width: 100%;
+    height: 100%;
+    padding: 1.2em 2em 2em 2em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    background: white;
+    font-size: 0.9em;
+    line-height: 1.5;
+    border: 1px solid black;
+    box-shadow: 0px 0px 21px -8px rgb(230, 230, 230);
+}
+
+.flyohasimproved .quotedintro {
+    margin-bottom: 1em;
+}
+
+.quoteanddescription img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 0.8em;
+}
+
+.quoteanddescription {
+    display: flex;
+}
+
+.nameandposition {
+    font-size: 0.7em;
+    align-items: center;
+}
+
+.foundername {
+    font-weight: bolder;
+    Font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.positionceo {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.getearlyaccess {
+    justify-content: center;
+    text-align: center;
+    background-color: #575989;
+    color: white;
+    padding: 2em;
+}
+
+.textandesc h3 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.textandesc p {
+    font-size: 0.7em;
+    line-height: 1.7;
+}
+
+.inputandbt {
+    padding: 2em;
+    padding-top: 0.8em;
+}
+
+.inputandbt input {
+    width: 100%;
+    margin-bottom: 0.6em;
+    border-radius: 0.1em;
+    border-style: hidden;
+    padding: 1em 0;
+    font-size: 0.7em;
+    border-color: hsl(238, 22%, 44%);
+    box-shadow: 0px 0px 21px -8px rgb(49, 49, 49);
+}
+
+.inputandbt button {
+    width: 100%;
+    background-color: #2f65f9;
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+    border-radius: 0.1em;
+    padding: 1em 0;
+    border-style: hidden;
+    box-shadow: 0px 0px 21px -8px rgb(49, 49, 49);
+}
+
+.inputandbt button:hover {
+    background-color: #6B9bff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #07043B;
+    padding: 3em 2em 2em 2em;
+    color: white;
+}
+
+footer .logowhite {
+    margin-bottom: 1.7em;
+}
+
+footer .phone {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+
+footer .phone svg {
+    margin-right: 1em;
+}
+
+footer .email {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 3em;
+}
+
+footer .email svg {
+    margin-right: 1em;
+}
+
+.firstul ul {
+    font-size: 0.8em;
+    line-height: 2.4em;
+    margin-bottom: 1.7em;
+}
+
+.secondul ul {
+    font-size: 0.8em;
+    line-height: 2.4em;
+}
+
+.secondul {
+    margin-bottom: 2em;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.4em;
+    margin-top: 5em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.instagramicon {
+    width: 1em;
+    height: 1em;
+}
+
+.fbicon {
+    width: 1em;
+    height: 1em;
+}
+
+.twittericon {
+    width: 1em;
+    height: 1em;
+}
+
+.logos {
+    justify-content: center;
+    text-align: Center;
+}
+
+.logos svg {
+    margin: 0 0.2em;
+}
+
+.attribution {
+    background-color: hsl(243, 87%, 12%);
+    margin-top: -2em;
+    color: white;
+    font-size: 0.5em;
+}
+
+@media only screen and (min-width:25em) {
+    .header .imagebox {
+        width: 11em;
+        height: 3em;
+    }
+    .boxer1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4em;
+    }
+    .boxer1 img {
+        order: 2;
+    }
+    .boxer1 .allyourfiles {
+        order: 1;
+        padding-top: 3em;
+    }
+    .allyourfiles h1 {
+        text-align: left;
+        font-size: 1.7em;
+        line-height: 1.6;
+        margin: 0;
+        margin-bottom: 0.3em;
+    }
+    .allyourfiles p {
+        text-align: left;
+        font-size: 0.7em;
+    }
+    .emailandbutton {
+        display: flex;
+        align-items: center;
+    }
+    .emailandbutton input {
+        width: 50%;
+        margin: 0;
+        margin-right: 1em;
+        padding: 1.3em;
+    }
+    .emailandbutton .getstarted {
+        width: 35%;
+        margin: 0;
+        text-align: center;
+    }
+    .wrapper {
+        padding: 2.5em;
+        align-items: center;
+    }
+    .secondsection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        grid-gap: 4em;
+    }
+    .secondsection .secondillustration {
+        order: 2;
+        margin-bottom: 5em;
+    }
+    .secondsection .stayproductive {
+        order: 1;
+        margin-bottom: 5em;
+    }
+    .getearlyaccess {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12em;
+    }
+    .textandesc {
+        order: 1;
+    }
+    .inputandbt {
+        order: 2;
+    }
+    .stayproductive h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5em;
+        margin-top: 0.5em;
+        text-align: left;
+        margin-bottom: 1em;
+    }
+    .secondsection .secondillustration {
+        padding: 0;
+    }
+    .flyohasimproved {
+        width: 17.9em;
+        height: 10.9em;
+        justify-content: left;
+        margin: 0;
+    }
+    .stayproductive p {
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+    .stayproductive .secondp {
+        margin: 0;
+        margin-bottom: 1.5em;
+    }
+    .seehow {
+        margin: 0;
+        margin-bottom: 2em;
+    }
+    .footerwrapper {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(4, auto);
+    }
+    .logos svg {
+        margin: 0 0.1em;
+    }
+    .logocol {
+        margin-bottom: -0.7em;
+        margin-top: 1em;
+    }
+    .inputandbt {
+        padding: 0;
+    }
+    .inputandbt input {
+        margin-bottom: 1.8em;
+        border-radius: 0.3em;
+    }
+    .inputandbt button {
+        border-radius: 0.3em;
+    }
+    .getearlyaccess {
+        padding: 3em 2em;
+        justify-content: left;
+        text-align: left;
+    }
+    .textandesc h3 {
+        font-size: 1.1em;
+    }
+    .textandesc p {
+        font-size: 0.7em;
+    }
+    .inputandbt button {
+        width: 15em;
+    }
+}
